@@ -16,6 +16,7 @@ public class Country {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -26,26 +27,32 @@ public class Country {
     }
 
     public String getCapital() {
+
         return capital;
     }
 
     public void setCapital(String newCapital) {
+
         capital = newCapital;
     }
 
     public double getSqKm() {
+
         return sqKm;
     }
 
     public void setSqKm(double newSqKm) {
+
         sqKm = newSqKm;
     }
 
     public int getPopulation() {
+
         return population;
     }
 
     public void setPopulation(int newPopulation) {
+
         population = newPopulation;
     }
 

@@ -18,22 +18,27 @@ public class Band {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String newName) {
+
         name = newName;
     }
 
     public int getYearFounded() {
+
         return yearFounded;
     }
 
     public void setYearFounded(int newYearFounded) {
+
         yearFounded = newYearFounded;
     }
 
     public int getNumberOfMembers() {
+
         return numberOfMembers;
     }
 
@@ -53,16 +58,18 @@ public class Band {
     }
 
     public boolean getHasAGrammy() {
+
         return hasAGrammy;
     }
 
     public void setHasAGrammy(boolean newHasAGrammy) {
+
         hasAGrammy = newHasAGrammy;
     }
 
     public static boolean isGreaterThanOne(int newNumberOfMembers) {
+
         return (newNumberOfMembers > 1);
     }
-
 
 }

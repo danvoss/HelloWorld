@@ -15,30 +15,37 @@ public class Car {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String newName) {
+
         name = newName;
     }
 
     public int getTopSpeed() {
+
         return topSpeed;
     }
 
     public void setTopSpeed(int newTopSpeed) {
+
         topSpeed = newTopSpeed;
     }
 
     public double getPrice() {
+
         return price;
     }
 
     public void setPrice(double newPrice) {
+
         price = newPrice;
     }
 
     public boolean getAutomaticTransmission() {
+
         return automaticTransmission;
     }
 
