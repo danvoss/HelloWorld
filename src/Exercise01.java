@@ -36,7 +36,7 @@ public class Exercise01 {
 
         System.out.println(nameMap);
 
-        // alternative solution:
+        // alternative solution one loop:
         nameMap = new HashMap<>();
 
         for (String name : names) {
