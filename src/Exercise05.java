@@ -8,6 +8,7 @@ public class Exercise05 {
     public static void main(String[] args) {
         String[] names = {"Charlie", "David", "Alice", "Bob", "Albert"};
 
+
         // ArrayList<String> sortedNames
         // a naive, inefficient sorting algorithm:
 
