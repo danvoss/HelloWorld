@@ -8,9 +8,14 @@ public class Exercise06 {
         int num = 12345;
         // turn into : int 54321
 
+        String str = "abcd";
+
         solveViaLoop(num);
         solveViaStringbuilder(num);
         solveViaMath(num);
+
+        String reverseStr = solveRecursively(str);
+        System.out.println(reverseStr);
     }
 
     public static void solveViaLoop(int num) {
@@ -39,5 +44,14 @@ public class Exercise06 {
             num = num / 10;
         }
         System.out.println(reverseNum);
+    }
+
+    // new, via javarevisited blog:
+
+    public static String solveRecursively(String str) {
+        if (str.length() < 2) {
+            return str;
+        }
+        return solveRecursively(str.substring(1)) + str.charAt(0);
     }
 }
