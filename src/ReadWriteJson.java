@@ -34,7 +34,6 @@ public class ReadWriteJson {
         scanner.useDelimiter("\\Z");
         String contents = scanner.next();
         JsonParser parser = new JsonParser();
-        //HashMap person3 = parser.parse(contents);
         Person person3 = parser.parse(contents, Person.class);
         System.out.println(person3);
     }
