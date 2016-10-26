@@ -1,9 +1,3 @@
 Alice
 Bob
 Charlie
-
-[
-{"name": "Alice", "age":20, "city":"Charleston"},
-{"name": "Bob", "age":30, "city":"Chicago"},
-{"name": "Charlie", "age":40, "city":"Boston"}
-]

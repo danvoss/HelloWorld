@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -26,5 +24,14 @@ public class ReadWriteFile {
         scanner = new Scanner(f);
         scanner.useDelimiter("\\Z");
         System.out.println(scanner.next());
+
+        // new, 10/16:
+        BufferedReader fileReader = new BufferedReader(new FileReader("names.txt"));
+        String s;
+        while (fileReader.ready()) {
+            s = fileReader.readLine();
+            System.out.println(s);
+        }
+
     }
 }
